@@ -1,0 +1,42 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "This is a graphql side project for learning more about GraphQL.js. Based on video series by Lee Benson.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtaylor32/graphql-server.git"
+  },
+  "keywords": [
+    "graphql.js",
+    "node.js"
+  ],
+  "author": "Jordan Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtaylor32/graphql-server/issues"
+  },
+  "homepage": "https://github.com/jtaylor32/graphql-server#readme",
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-preset-node5": "^11.1.0",
+    "eslint": "^3.7.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "faker": "^3.1.0",
+    "graphiql": "^0.7.8",
+    "graphql": "^0.7.1",
+    "lodash": "^4.16.4",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sequelize": "^3.24.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0"
+  }
+}
